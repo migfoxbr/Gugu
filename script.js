@@ -27,7 +27,7 @@ function sortearTimes() {
   button.classList.add('pulsing');
 
   setTimeout(() => {
-    button.clasList.remove('pulsing')
+    button.classList.remove('pulsing')
   }, 500);
 }
 
