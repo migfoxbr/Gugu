@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: rgb(30, 173, 198);
+    font-size: 80px;
+    height: 100vh; /* Para ocupar toda a altura da viewport */
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.teams{
+    text-align: center;
+}
+
+.top {
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+   
+    color: aliceblue;
+    
+    
+}
+
+.button {
+    border-radius: 10px; 
+   height: 105px;
+   width: 250px;
+   font-size: 40px;
+   background-color: black;
+    color: white;
+    cursor: pointer;
+}
